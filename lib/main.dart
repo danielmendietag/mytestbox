@@ -21,6 +21,7 @@ class MyTestBox extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       locale: Get.deviceLocale,
       title: "MYTEEBOX",
+      theme: AppThemes.main,
     );
   }
 }
