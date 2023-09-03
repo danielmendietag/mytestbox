@@ -37,6 +37,15 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.5
   sqflite: ^2.3.0
+  logger: ^2.0.1
+  awesome_dialog: ^3.1.0
+  parse_server_sdk_flutter: ^6.0.0
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.8.0
+  firebase_messaging: ^14.6.7
+  get_storage: ^2.1.1
+  carousel_slider: ^4.2.1
+  intl_phone_number_input: ^0.7.3+1
 
 dev_dependencies:
   flutter_test:
