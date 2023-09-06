@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
-import '../../utils/logger.dart';
+// import '../../utils/logger.dart';
 
 class RecoverController extends GetxController {
   var loading = false.obs;
