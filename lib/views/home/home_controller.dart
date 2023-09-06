@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../services/global_data.dart';
+// import '../../services/global_data.dart';
 
 class HomeController extends GetxController {
   var version = ''.obs;
