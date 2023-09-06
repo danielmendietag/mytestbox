@@ -1,9 +1,9 @@
-import 'package:awesome_dialog/awesome_dialog.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+// import 'package:awesome_dialog/awesome_dialog.dart';
+// import 'package:flutter/cupertino.dart';
+// import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
-import '../../utils/logger.dart';
+// import 'package:get_storage/get_storage.dart';
+// import '../../utils/logger.dart';
 
 class WelcomeController extends GetxController {
   // var loading = false.obs;
