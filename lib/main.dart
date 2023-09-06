@@ -1,11 +1,19 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/services.dart';
+// import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:mytestbox/services/firebase_options.dart';
+
+import 'config/app_themes.dart';
+import 'config/app_routes.dart';
+// import 'config/app_translations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+
+  await Firebase.initializeApp(
+      name: 'mytestbox', options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyTestBox());
 }
 
@@ -22,6 +30,7 @@ class MyTestBox extends StatelessWidget {
       locale: Get.deviceLocale,
       title: "MYTEEBOX",
       theme: AppThemes.main,
+      initialRoute: '/welcome',
     );
   }
 }
