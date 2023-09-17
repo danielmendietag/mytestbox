@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../config/app_themes.dart';
+// import '../config/app_themes.dart';
 
 class LogoTwoWidget extends StatelessWidget {
   const LogoTwoWidget({super.key});
@@ -17,7 +17,7 @@ class LogoTwoWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image(
-                image: AssetImage("assets/logo.png"),
+                image: AssetImage("assets/logo_main.png"),
                 width: 50,
                 height: 50,
               ),
@@ -44,7 +44,7 @@ class LogoTwoWidget extends StatelessWidget {
                       fontWeight: FontWeight.normal,
                       fontFamily: 'Muli',
                       fontSize: 12,
-                      //color: kDark,
+                      color: Color.fromRGBO(255, 255, 255, 53),
                     ),
                   ),
                 ],
