@@ -110,14 +110,15 @@ class WelcomePage extends GetView<WelcomeController> {
                               const SignInPage(),
                             );
                           },
-                          child: Text(
-                            'getstarted'.tr,
+                          child: const Text(
+                            'GET STARTED',
                             textAlign: TextAlign.right,
                             overflow: TextOverflow.ellipsis,
-                            style: const TextStyle(
-                                fontFamily: 'Mulish',
-                                fontSize: 18,
-                                color: Color(0xff596E79)),
+                            style: TextStyle(
+                                fontFamily: 'Muli',
+                                fontSize: 20,
+                                fontWeight: FontWeight.w900,
+                                color: Color.fromARGB(88, 0, 0, 0)),
                           )),
                     ]))));
   }
