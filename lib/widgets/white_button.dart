@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter/material.dart';
 import '../views/signup/signup.dart';
 
 class WhiteButton extends StatelessWidget {
