@@ -30,6 +30,7 @@ class MyTestBox extends StatelessWidget {
       locale: Get.deviceLocale,
       title: "MYTEEBOX",
       theme: AppThemes.main,
+      getPages: AppRoutes.routes,
       initialRoute: '/welcome',
     );
   }
