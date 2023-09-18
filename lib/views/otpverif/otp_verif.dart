@@ -27,12 +27,12 @@ class OtpVerification extends StatelessWidget {
               Expanded(
                 flex: 5,
                 child: Container(
-                  padding:
-                      EdgeInsets.only(left: 20, right: 10, bottom: 0, top: 50),
-                  margin:
-                      EdgeInsets.only(left: 0, right: 0, bottom: 0, top: 150),
+                  padding: const EdgeInsets.only(
+                      left: 20, right: 10, bottom: 0, top: 50),
+                  margin: const EdgeInsets.only(
+                      left: 0, right: 0, bottom: 0, top: 150),
                   width: double.infinity,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(30),
@@ -42,7 +42,7 @@ class OtpVerification extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Enter Code',
                         style: TextStyle(
                           fontFamily: 'Muli',
@@ -50,10 +50,10 @@ class OtpVerification extends StatelessWidget {
                           fontWeight: FontWeight.w900,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 20,
                       ),
-                      Text(
+                      const Text(
                         'Enter the four digit code we sent to you +62 855 122 444',
                         style: TextStyle(
                           fontFamily: 'Muli',
@@ -61,11 +61,11 @@ class OtpVerification extends StatelessWidget {
                           fontWeight: FontWeight.w500,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 30,
                       ),
-                      OtpForm(),
-                      SizedBox(
+                      const OtpForm(),
+                      const SizedBox(
                         height: 100,
                       ),
                       Row(
@@ -76,7 +76,7 @@ class OtpVerification extends StatelessWidget {
                           IconButton(
                               icon: const Icon(Icons.arrow_back_ios_new_sharp),
                               onPressed: () {
-                                Get.to(SignInPage());
+                                Get.to(const SignInPage());
                               }),
                           GreyButton(),
                         ],
