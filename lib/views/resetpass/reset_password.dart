@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 // import 'package:get/get_core/src/get_main.dart';
@@ -19,7 +18,7 @@ class RecoverPage extends GetView<RecoverController> {
       resizeToAvoidBottomInset: false,
       body: Container(
         margin: const EdgeInsets.only(left: 30),
-        child: Column(
+        child: const Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
