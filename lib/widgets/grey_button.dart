@@ -9,7 +9,7 @@ class GreyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(left: 0, right: 10),
-      padding: EdgeInsets.only(right: 0, left: 0),
+      padding: const EdgeInsets.only(right: 0, left: 0),
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
             backgroundColor: const Color.fromRGBO(111, 111, 111, 1),
@@ -21,7 +21,7 @@ class GreyButton extends StatelessWidget {
           onPressed: () {
             Get.to(const HomePage());
           },
-          child: Text(
+          child: const Text(
             'SIGN IN',
             textAlign: TextAlign.center,
             overflow: TextOverflow.ellipsis,

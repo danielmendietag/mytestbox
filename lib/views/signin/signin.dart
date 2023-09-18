@@ -62,7 +62,7 @@ class SignInPage extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           const SizedBox(
-                            height: 50,
+                            height: 40,
                           ),
                           const Text(
                             'Welcome Back',
@@ -74,9 +74,6 @@ class SignInPage extends StatelessWidget {
                               fontFamily: 'Muli',
                             ),
                           ),
-                          const SizedBox(
-                            height: 0,
-                          ),
                           const Text(
                             'Sign in',
                             style: TextStyle(
@@ -87,12 +84,12 @@ class SignInPage extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(
-                            height: 15,
+                            height: 10,
                           ),
                           //Login form from loginform.dart
                           const LogInForm(),
                           const SizedBox(
-                            height: 15,
+                            height: 10,
                           ),
                           const Row(
                             mainAxisSize: MainAxisSize.min,
@@ -117,14 +114,14 @@ class SignInPage extends StatelessWidget {
                           const SizedBox(
                             height: 10,
                           ),
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.only(left: 30),
                             child: GreyButton(),
                           ),
                           Padding(
-                            padding: EdgeInsets.only(
-                                left: 10, right: 0, bottom: 0, top: 20),
-                            child: Column(
+                            padding: const EdgeInsets.only(
+                                left: 10, right: 0, bottom: 0, top: 10),
+                            child: Row(
                               mainAxisSize: MainAxisSize.min,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -136,6 +133,9 @@ class SignInPage extends StatelessWidget {
                                       fontSize: 14,
                                       fontWeight: FontWeight.normal,
                                       color: Color.fromRGBO(31, 31, 31, 1)),
+                                ),
+                                SizedBox(
+                                  width: 5,
                                 ),
                                 TextButton(
                                   onPressed: () {
@@ -153,6 +153,9 @@ class SignInPage extends StatelessWidget {
                                 ),
                               ],
                             ),
+                          ),
+                          SizedBox(
+                            height: 10,
                           ),
                           const WhiteButton(),
                         ]),

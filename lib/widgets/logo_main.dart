@@ -11,15 +11,12 @@ class LogoMainWidget extends StatelessWidget {
       child: Column(
         children: [
           SizedBox(
-            height: 20,
+            height: 15,
           ),
           Image(
             image: AssetImage("assets/logo_main.png"),
             width: 175,
             height: 175,
-          ),
-          SizedBox(
-            height: 9,
           ),
           Text(
             'MYTEEBOX',

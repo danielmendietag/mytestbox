@@ -37,7 +37,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                 )),
             Expanded(
-              flex: 4,
+              flex: 5,
               child: Container(
                   padding: const EdgeInsets.only(
                       left: 20, right: 20, bottom: 0, top: 0),
@@ -103,7 +103,7 @@ class SignUpPage extends StatelessWidget {
                                 icon:
                                     const Icon(Icons.arrow_back_ios_new_sharp),
                                 onPressed: () {
-                                  Get.to(SignInPage());
+                                  Get.to(const SignInPage());
                                 }),
                             ElevatedButton(
                               style: ElevatedButton.styleFrom(
@@ -115,13 +115,14 @@ class SignUpPage extends StatelessWidget {
                                 minimumSize: const Size(236, 50),
                               ),
                               onPressed: () {
-                                Get.to(OtpVerification());
+                                Get.to(const OtpVerification());
                               },
                               child: const Text(
                                 'NEXT',
                                 style: TextStyle(
                                     fontFamily: 'Mulish',
                                     fontSize: 18,
+                                    color: Colors.white,
                                     fontWeight: FontWeight.w700),
                               ),
                             ),

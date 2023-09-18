@@ -9,7 +9,7 @@ class recoverButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(left: 0, right: 10),
-      padding: EdgeInsets.only(right: 0, left: 15),
+      padding: const EdgeInsets.only(right: 0, left: 15),
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
             backgroundColor: const Color.fromRGBO(111, 111, 111, 1),
@@ -21,7 +21,7 @@ class recoverButton extends StatelessWidget {
           onPressed: () {
             Get.to(const SignInPage());
           },
-          child: Text(
+          child: const Text(
             'RESET PASSWORD',
             textAlign: TextAlign.center,
             overflow: TextOverflow.ellipsis,

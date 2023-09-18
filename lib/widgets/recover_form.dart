@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
 // import '../views/signin/signin.dart';
@@ -22,15 +21,15 @@ class _RecoverFormState extends State<RecoverForm> {
 
   Padding buildinputForm(String label) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+      padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
       child: TextFormField(
         decoration: InputDecoration(
           labelText: label,
-          labelStyle: TextStyle(
+          labelStyle: const TextStyle(
             color: Color.fromRGBO(0, 0, 0, 0.51),
             fontFamily: 'Muil',
           ),
-          focusedBorder: UnderlineInputBorder(
+          focusedBorder: const UnderlineInputBorder(
               borderSide:
                   BorderSide(color: Color.fromRGBO(199, 199, 199, 0.24))),
         ),
