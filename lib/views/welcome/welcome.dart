@@ -97,8 +97,8 @@ class WelcomePage extends GetView<WelcomeController> {
                       kSpacerH,
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.white,
-                            foregroundColor: const Color(0xff596E79),
+                            backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                            foregroundColor: const Color.fromARGB(255, 0, 0, 100),
                             shape: RoundedRectangleBorder(
                               borderRadius:
                                   BorderRadius.circular(130), // <-- Radius
@@ -117,8 +117,8 @@ class WelcomePage extends GetView<WelcomeController> {
                             style: TextStyle(
                                 fontFamily: 'Muli',
                                 fontSize: 20,
-                                fontWeight: FontWeight.w900,
-                                color: Color.fromARGB(88, 0, 0, 0)),
+                                fontWeight: FontWeight.bold,
+                                color: Color.fromARGB(87, 0, 0, 100)),
                           )),
                     ]))));
   }
