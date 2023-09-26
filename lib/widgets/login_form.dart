@@ -21,7 +21,7 @@ class _LogInFormState extends State<LogInForm> {
 
   Padding buildinputForm(String label, bool pass) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 0),
+      padding: EdgeInsets.only(top: 0, bottom: 0, right: 10, left: 0),
       child: TextFormField(
         obscureText: pass ? isObscure : false,
         decoration: InputDecoration(

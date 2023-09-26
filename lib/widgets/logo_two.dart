@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 // import '../config/app_themes.dart';
 
@@ -9,11 +10,12 @@ class LogoTwoWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.topLeft,
-      child: const Column(
+      child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(height: 20),
           Row(
+            key: key,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image(
@@ -22,7 +24,7 @@ class LogoTwoWidget extends StatelessWidget {
                 height: 50,
               ),
               SizedBox(width: 20),
-              Column(
+              const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
@@ -48,7 +50,7 @@ class LogoTwoWidget extends StatelessWidget {
                     ),
                   ),
                 ],
-              ),
+              )
             ],
           ),
         ],
