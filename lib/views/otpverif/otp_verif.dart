@@ -78,7 +78,7 @@ class OtpVerification extends StatelessWidget {
                               onPressed: () {
                                 Get.to(const SignInPage());
                               }),
-                          GreyButton(),
+                          const GreyButton(),
                         ],
                       ),
                     ],
