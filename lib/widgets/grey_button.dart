@@ -19,7 +19,7 @@ class GreyButton extends StatelessWidget {
             minimumSize: const Size(321.55, 60),
           ),
           onPressed: () {
-            Get.to(const HomePage());
+            Get.to(HomePage());
           },
           child: const Text(
             'SIGN IN',
