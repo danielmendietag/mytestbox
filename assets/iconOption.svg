@@ -1,0 +1,19 @@
+<svg width="5" height="23" viewBox="0 0 5 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="5" height="23" fill="#E5E5E5"/>
+<g id="Profile" clip-path="url(#clip0_0_1)">
+<rect width="375" height="812" transform="translate(-347 -69)" fill="white"/>
+<rect id="pageBackground" x="-347" y="-69" width="375" height="812" fill="white"/>
+<g id="HEADER">
+<g id="iconOption">
+<circle id="01" cx="2.5" cy="2.5" r="2.5" fill="black"/>
+<circle id="02" cx="2.5" cy="11.5" r="2.5" fill="black"/>
+<circle id="03" cx="2.5" cy="20.5" r="2.5" fill="black"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="375" height="812" fill="white" transform="translate(-347 -69)"/>
+</clipPath>
+</defs>
+</svg>
