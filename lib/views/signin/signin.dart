@@ -91,7 +91,7 @@ class SignInPage extends StatelessWidget {
                           const SizedBox(
                             height: 10,
                           ),
-                          const Row(
+                          Row(
                             mainAxisSize: MainAxisSize.min,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.center,
@@ -134,7 +134,7 @@ class SignInPage extends StatelessWidget {
                                       fontWeight: FontWeight.normal,
                                       color: Color.fromRGBO(31, 31, 31, 1)),
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   width: 5,
                                 ),
                                 TextButton(
@@ -154,7 +154,7 @@ class SignInPage extends StatelessWidget {
                               ],
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 10,
                           ),
                           const WhiteButton(),
