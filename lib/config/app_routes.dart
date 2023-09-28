@@ -1,12 +1,16 @@
 import 'package:get/get.dart';
+import 'package:mytestbox/views/becomehost/become_host.dart';
 import 'package:mytestbox/views/chatlist/chat_list.dart';
 import 'package:mytestbox/views/notifications/notifications.dart';
 // import 'package:mytestbox/config/app_binding.dart';
 import 'package:mytestbox/views/profile/profile.dart';
 import 'package:mytestbox/views/profile/profile_controller.dart';
 import 'package:mytestbox/views/whatsnew/whats_new.dart';
+import '../views/becomehost/host_controller.dart';
 import '../views/chatlist/chatlist_controller.dart';
 import '../views/notifications/notifications_controller.dart';
+import '../views/profileediting/profile_editing.dart';
+import '../views/profileediting/profileedit_controller.dart';
 import '../views/welcome/welcome.dart';
 import '../views/welcome/welcome_controller.dart';
 import '../views/signin/signin.dart';
@@ -73,10 +77,10 @@ class AppRoutes {
       }),
     ),
     GetPage(
-      name: '/profile',
-      page: () => const ProfilePage(),
+      name: '/profiledit',
+      page: () => const ProfileEditingPage(),
       binding: BindingsBuilder(() {
-        Get.lazyPut<ProfileController>(() => ProfileController());
+        Get.lazyPut<ProfileEditingController>(() => ProfileEditingController());
       }),
     ),
     GetPage(
@@ -98,6 +102,13 @@ class AppRoutes {
       page: () => const NotificationsPage(),
       binding: BindingsBuilder(() {
         Get.lazyPut<NotificationsController>(() => NotificationsController());
+      }),
+    ),
+    GetPage(
+      name: '/becomehost',
+      page: () => const BecomeHostPage(),
+      binding: BindingsBuilder(() {
+        Get.lazyPut<BecomeHostController>(() => BecomeHostController());
       }),
     ),
   ];
