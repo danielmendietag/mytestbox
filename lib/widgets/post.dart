@@ -1,33 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class Post extends StatelessWidget {
+class PostContainer extends StatelessWidget {
+  PostContainer({
+    super.key,
+  });
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ListView(children: [
-        Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Container(
-            height: 200,
-            color: Colors.black,
-          ),
-        ),
-        Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Container(
-            height: 200,
-            color: Color.fromARGB(255, 255, 0, 0),
-          ),
-        ),
-        Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Container(
-            height: 200,
-            color: Colors.black,
-          ),
-        ),
-      ]),
-    );
+    return Container(
+        // height: 10.0,
+        // color: Colors.red,
+        );
   }
 }
