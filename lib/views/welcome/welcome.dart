@@ -47,7 +47,7 @@ class WelcomePage extends GetView<WelcomeController> {
                           Padding(
                             padding: EdgeInsets.all(20.0),
                             child: Text(
-                                'Golfers wants just one thing...to play more golf! Get invited to the course you’ve always wanted to play or simply find a golf partner.',
+                                'Golfers want just one thing...to play more golf! Get invited to the course you’ve always wanted to play or simply find a golf partner.',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     fontFamily: 'Mulish',
@@ -57,7 +57,7 @@ class WelcomePage extends GetView<WelcomeController> {
                           Padding(
                             padding: EdgeInsets.all(20.0),
                             child: Text(
-                                'Golfers wants just one thing...to play more golf! Get invited to the course you’ve always wanted to play or simply find a golf partner.',
+                                'Golfers want just one thing...to play more golf! Get invited to the course you’ve always wanted to play or simply find a golf partner.',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     fontFamily: 'Mulish',
@@ -67,7 +67,7 @@ class WelcomePage extends GetView<WelcomeController> {
                           Padding(
                             padding: EdgeInsets.all(20.0),
                             child: Text(
-                                'Golfers wants just one thing...to play more golf! Get invited to the course you’ve always wanted to play or simply find a golf partner.',
+                                'Golfers want just one thing...to play more golf! Get invited to the course you’ve always wanted to play or simply find a golf partner.',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     fontFamily: 'Mulish',
@@ -77,7 +77,7 @@ class WelcomePage extends GetView<WelcomeController> {
                           Padding(
                             padding: EdgeInsets.all(20.0),
                             child: Text(
-                                'Golfers wants just one thing...to play more golf! Get invited to the course you’ve always wanted to play or simply find a golf partner.',
+                                'Golfers want just one thing...to play more golf! Get invited to the course you’ve always wanted to play or simply find a golf partner.',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     fontFamily: 'Mulish',
@@ -97,8 +97,10 @@ class WelcomePage extends GetView<WelcomeController> {
                       kSpacerH,
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: const Color.fromARGB(255, 255, 255, 255),
-                            foregroundColor: const Color.fromARGB(255, 0, 0, 100),
+                            backgroundColor:
+                                const Color.fromARGB(255, 255, 255, 255),
+                            foregroundColor:
+                                const Color.fromARGB(255, 0, 0, 100),
                             shape: RoundedRectangleBorder(
                               borderRadius:
                                   BorderRadius.circular(130), // <-- Radius
