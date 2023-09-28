@@ -20,7 +20,7 @@ class HomeController extends GetxController {
   @override
   void onInit() async {
     super.onInit();
-    // version.value = (await PackageInfo.fromPlatform()).version.toString();
+    version.value = (await PackageInfo.fromPlatform()).version.toString();
   }
 
   var scaffoldKey = GlobalKey<ScaffoldState>();
