@@ -1,4 +1,3 @@
-
 class Post {
   // `final User user;`
   final String caption;
@@ -7,6 +6,7 @@ class Post {
   final int likes;
   final int comments;
   final int shares;
+  final Post post;
 
   const Post(
       { // required this.user,
@@ -15,5 +15,6 @@ class Post {
       required this.imageUrl,
       required this.likes,
       required this.comments,
-      required this.shares});
+      required this.shares,
+      required this.post});
 }
