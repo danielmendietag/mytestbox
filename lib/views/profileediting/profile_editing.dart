@@ -43,6 +43,15 @@ class ProfileEditingPage extends StatelessWidget {
               fontFamily: 'Muli',
               fontWeight: FontWeight.w900),
         ),
+        leading: Padding(
+          padding: const EdgeInsets.only(left: 10),
+          child: Builder(builder: (context) {
+            return IconButton(
+              onPressed: () => Scaffold.of(context).openDrawer(),
+              icon: Image.asset('assets/btnLeftMenu.png'),
+            );
+          }),
+        ),
       ),
       drawer: MainDrawer(),
       body: Container(

@@ -27,6 +27,15 @@ class WhatsNewPage extends StatelessWidget {
               height: 0,
             ),
           ),
+          leading: Padding(
+            padding: const EdgeInsets.only(left: 10),
+            child: Builder(builder: (context) {
+              return IconButton(
+                onPressed: () => Scaffold.of(context).openDrawer(),
+                icon: Image.asset('assets/btnLeftMenu.png'),
+              );
+            }),
+          ),
         ),
         drawer: MainDrawer(),
         body: Padding(

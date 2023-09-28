@@ -2,11 +2,14 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:mytestbox/views/becomehost/become_host.dart';
 import '../config/app_routes.dart';
 import '../views/Aboutus/about_us.dart';
 import '../views/chatlist/chat_list.dart';
 import '../views/notifications/notifications.dart';
+import '../views/profileediting/profile_editing.dart';
 import '../views/whatsnew/whats_new.dart';
+import '../views/home/home.dart';
 
 class MainDrawer extends StatefulWidget {
   @override
@@ -90,6 +93,39 @@ class _MainDrawerState extends State<MainDrawer> {
             ),
             ListTile(
               title: Text(
+                'Find a Host',
+                style: TextStyle(
+                    color: const Color.fromARGB(255, 255, 255, 255),
+                    fontFamily: 'Muli',
+                    fontSize: 18,
+                    fontWeight: FontWeight.w400),
+              ),
+              tileColor: Get.currentRoute == '/home' ? Colors.grey[300] : null,
+              onTap: () {
+                print(Get.currentRoute);
+                Get.back();
+                Get.to(HomePage());
+              },
+            ),
+            ListTile(
+              title: Text(
+                'Become a Host',
+                style: TextStyle(
+                    color: const Color.fromARGB(255, 255, 255, 255),
+                    fontFamily: 'Muli',
+                    fontSize: 18,
+                    fontWeight: FontWeight.w400),
+              ),
+              tileColor:
+                  Get.currentRoute == '/becomehost' ? Colors.grey[300] : null,
+              onTap: () {
+                print(Get.currentRoute);
+                Get.back();
+                Get.to(BecomeHostPage());
+              },
+            ),
+            ListTile(
+              title: Text(
                 'What´s new',
                 style: TextStyle(
                     color: const Color.fromARGB(255, 255, 255, 255),
@@ -144,6 +180,23 @@ class _MainDrawerState extends State<MainDrawer> {
                 color: Colors.red,
                 size: 18,
               ),
+            ),
+            ListTile(
+              title: Text(
+                'Settings',
+                style: TextStyle(
+                    color: const Color.fromARGB(255, 255, 255, 255),
+                    fontFamily: 'Muli',
+                    fontSize: 18,
+                    fontWeight: FontWeight.w400),
+              ),
+              tileColor:
+                  Get.currentRoute == '/profiledit' ? Colors.grey[300] : null,
+              onTap: () {
+                print(Get.currentRoute);
+                Get.back();
+                Get.to(ProfileEditingPage());
+              },
             ),
           ],
         ),
