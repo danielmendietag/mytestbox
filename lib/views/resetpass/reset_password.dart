@@ -49,11 +49,11 @@ class RecoverPage extends GetView<RecoverController> {
               ),
             ),
             SizedBox(
-              height: 150,
+              height: 100,
             ),
             RecoverForm(),
             SizedBox(
-              height: 20,
+              height: 70,
             ),
             recoverButton(),
           ],
